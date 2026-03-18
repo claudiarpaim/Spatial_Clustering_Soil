@@ -77,9 +77,22 @@ O projeto foi dividido em três etapas principais:
 
 ## 📁 Estrutura do Projeto
 
-```bash
-notebooks/
+soil-clustering-ml/
 │
-├── 01_dataset_construction.ipynb
-├── 02_exploratory_analysis_pca.ipynb
-└── 03_clustering_spatial_patterns.ipynb
+├── data/
+│   ├── raw/              # rasters originais (ou link se forem grandes)
+│   └── processed/        # dataset final
+│
+├── notebooks/
+│   01_dataset_construction.ipynb
+│   02_exploratory_analysis_pca.ipynb
+│   03_clustering_spatial_patterns.ipynb
+│
+├── images/               # salvar gráficos importantes (opcional)
+│
+├── src/                  # (opcional futuramente)
+│
+├── README.md             ⭐ (mais importante)
+├── requirements.txt
+└── .gitignore
+
