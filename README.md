@@ -84,9 +84,9 @@ soil-clustering-ml/
 │   └── processed/                                            
 │
 ├── notebooks/                                         
-│   01_dataset_construction.ipynb
-│   02_exploratory_analysis_pca.ipynb                             
-│   03_clustering_spatial_patterns.ipynb                              
+│   01_dataset_construction.ipynb                                
+│   02_exploratory_analysis_pca.ipynb                                                                
+│   03_clustering_spatial_patterns.ipynb                                                            
 │
 ├── images/                                      
 │
