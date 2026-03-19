@@ -14,6 +14,9 @@ O objetivo é responder à seguinte pergunta:
   <img src="images/clusters_map.png" alt="Distribuição Espacial dos Perfis de Solo" width="700"/>
 </p>
 
+<p align="center">
+  <small><strong>Figura 1.</strong> Distribuição espacial dos clusters de solo identificados por meio de técnicas de aprendizado não supervisionado.</small>
+</p>
 ---
 
 ## Objetivos
@@ -42,11 +45,35 @@ O projeto foi dividido em três etapas principais:
 - Redução de dimensionalidade (PCA)
 - Identificação de gradientes estruturais
 
+<p align="center">
+  <img src="images/pca_scatter.png" alt="Clusters no espaço PCA" width="700"/>
+</p>
+
+<p align="center">
+  <small><strong>Figura 2.</strong> Projeção dos dados no espaço dos dois primeiros componentes principais (PCA).</small>
+</p>
+
+<p align="center">
+  <img src="images/pca_variance.png" alt="Variância Explicada por Componente Principal" width="700"/>
+</p>
+
+<p align="center">
+  <small><strong>Figura 2.</strong> Variância explicada pelos componentes principais, indicando a proporção da informação dos dados capturada por cada componente.</small>
+</p>
+
 ### 3. Clusterização
 - Aplicação do K-Means
 - Definição do número de clusters
 - Análise dos perfis de solo
 - Visualização espacial dos agrupamentos
+
+<p align="center">
+  <img src="images/cluster_profiles.png" alt="Perfil médio dos clusters" width="700"/>
+</p>
+
+<p align="center">
+  <small><strong>Figura 2.</strong> Comparação das médias das variáveis por cluster, destacando os diferentes perfis de solo identificados pelo modelo..</small>
+</p>
 
 ---
 
