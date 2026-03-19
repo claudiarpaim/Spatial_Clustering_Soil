@@ -10,6 +10,10 @@ O objetivo é responder à seguinte pergunta:
 
 > É possível identificar zonas homogêneas de solo utilizando técnicas de Machine Learning?
 
+<p align="center">
+  <img src="images/clusters_map.png" alt="Distribuição Espacial dos Perfis de Solo" width="700"/>
+</p>
+
 ---
 
 ## Objetivos
