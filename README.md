@@ -58,7 +58,7 @@ O projeto foi dividido em três etapas principais:
 </p>
 
 <p align="center">
-  <small><strong>Figura 2.</strong> Variância explicada pelos componentes principais, indicando a proporção da informação dos dados capturada por cada componente.</small>
+  <small><strong>Figura 3.</strong> Variância explicada pelos componentes principais, indicando a proporção da informação dos dados capturada por cada componente.</small>
 </p>
 
 ### 3. Clusterização
@@ -71,8 +71,9 @@ O projeto foi dividido em três etapas principais:
   <img src="images/cluster_profiles.png" alt="Perfil médio dos clusters" width="700"/>
 </p>
 
+
 <p align="center">
-  <small><strong>Figura 2.</strong> Comparação das médias das variáveis por cluster, destacando os diferentes perfis de solo identificados pelo modelo..</small>
+  <small><strong>Figura 4.</strong> Comparação das médias das variáveis por cluster, destacando os diferentes perfis de solo identificados pelo modelo..</small>
 </p>
 
 ---
