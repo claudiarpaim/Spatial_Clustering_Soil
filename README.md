@@ -124,5 +124,19 @@ soil-clustering-ml/
 │
 ├── README.md                                       
 ├── requirements.txt                          
-└── .gitignore                     
+└── .gitignore  
+
+# Como executar o Projeto
+
+git clone https://github.com/claudiarpaim/Spatial_Clustering_Soil.git                               
+cd Spatial_Clustering_Soil                           
+pip install -r requirements.txt                                          
+
+# Autora
+
+## Cláudia Rosa
+Cientista de Dados Júnior | Química Ambiental
+
+LinkedIn: https://www.linkedin.com/in/claudia-rosa-datascience                                     
+Email: claudiarpaim@gmail.com
 
