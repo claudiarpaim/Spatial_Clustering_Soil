@@ -27,7 +27,7 @@ O objetivo é responder à seguinte pergunta:
 - Identificar padrões com clusterização (K-Means)  
 - Interpretar os clusters no contexto ambiental  
 
----
+
 
 ## Metodologia
 
@@ -72,7 +72,7 @@ O projeto foi dividido em três etapas principais:
 </p>
 
 <p align="center">
-  <small><strong>Figura 3.</strong> Comparação das médias das variáveis por cluster, destacando os diferentes perfis de solo identificados pelo modelo.</small>
+  <small><strong>Figura 4.</strong> Comparação das médias das variáveis por cluster, destacando os diferentes perfis de solo identificados pelo modelo.</small>
 </p>
 
 
