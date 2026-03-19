@@ -17,7 +17,7 @@ O objetivo é responder à seguinte pergunta:
 <p align="center">
   <small><strong>Figura 1.</strong> Distribuição espacial dos clusters de solo identificados por meio de técnicas de aprendizado não supervisionado.</small>
 </p>
----
+
 
 ## Objetivos
 
