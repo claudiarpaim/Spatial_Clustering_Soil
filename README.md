@@ -2,7 +2,7 @@
 
 ## Descrição do Projeto
 
-Este projeto aplica técnicas de aprendizado não supervisionado para identificar padrões espaciais em propriedades físico-químicas do solo.
+Este projeto aplica técnicas de aprendizado não supervisionado para identificar padrões espaciais em propriedades físico-químicas do solo na Região Sudeste do Brasil.
 
 A partir de dados geoespaciais do SoilGrids, foi construída uma base de dados estruturada contendo variáveis como pH, carbono orgânico, nitrogênio, textura e densidade do solo.
 
