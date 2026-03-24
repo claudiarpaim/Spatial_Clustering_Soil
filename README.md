@@ -1,4 +1,4 @@
-# Clusterização Espacial de Solos com Machine Learning
+# Clusterização Espacial de Atributos do Solo com Machine Learning
 
 ## Descrição do Projeto
 
