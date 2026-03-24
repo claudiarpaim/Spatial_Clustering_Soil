@@ -2,14 +2,15 @@
 
 ## Descrição do Projeto
 
-Este projeto aplica técnicas de aprendizado não supervisionado para identificar padrões espaciais em propriedades físico-químicas do solo na Região Sudeste do Brasil.
+Este projeto aplica técnicas de aprendizado não supervisionado para identificar padrões espaciais em atributos físico-químicos do solo na Região Sudeste do Brasil.
 
-A partir de dados geoespaciais do SoilGrids, foi construída uma base de dados estruturada contendo variáveis como pH, carbono orgânico, nitrogênio, textura e densidade do solo.
+A partir de dados geoespaciais do SoilGrids, foi construída uma base de dados estruturada contendo variáveis como pH, carbono orgânico, nitrogênio, textura e densidade do solo na camada superficial (0–5 cm).
 
 O objetivo é responder à seguinte pergunta:
 
-> É possível identificar zonas homogêneas de solo utilizando técnicas de Machine Learning?
+É possível identificar zonas homogêneas com base em atributos do solo utilizando técnicas de Machine Learning?
 
+Importante: este estudo não tem como objetivo classificar tipos de solo no sentido pedológico, mas sim identificar padrões e agrupamentos com base em atributos físico-químicos.
 <p align="center">
   <img src="images/clusters_map.png" alt="Distribuição Espacial dos Perfis de Solo" width="700"/>
 </p>
@@ -21,12 +22,11 @@ O objetivo é responder à seguinte pergunta:
 
 ## Objetivos
 
-- Construir um dataset a partir de rasters geoespaciais  
-- Analisar a estrutura multivariada dos dados  
-- Reduzir dimensionalidade com PCA  
-- Identificar padrões com clusterização (K-Means)  
-- Interpretar os clusters no contexto ambiental  
-
+ - Construir um dataset a partir de rasters geoespaciais
+- Analisar a estrutura multivariada dos dados
+- Reduzir dimensionalidade com PCA
+- Identificar padrões com clusterização (K-Means)
+- Interpretar os clusters com base em atributos do solo no contexto ambiental
 
 
 ## Metodologia
@@ -64,7 +64,7 @@ O projeto foi dividido em três etapas principais:
 ### 3. Clusterização
 - Aplicação do K-Means
 - Definição do número de clusters
-- Análise dos perfis de solo
+- Análise dos perfis médios dos clusters
 - Visualização espacial dos agrupamentos
 
 <p align="center">
@@ -78,10 +78,10 @@ O projeto foi dividido em três etapas principais:
 
 ## Principais Resultados
 
-- Identificação de padrões espaciais consistentes no solo  
+- Identificação de padrões espaciais consistentes no em atributos do solo 
 - Evidência de dois gradientes dominantes: químico e textural  
-- Segmentação do solo em grupos com características distintas  
-- Coerência espacial dos clusters  
+- Segmentação dos dados em grupos com perfis distintos de atributos físico-químicos
+- Coerência espacial dos clusters, indicando estrutura não aleatória  
 
 ---
 
@@ -90,7 +90,7 @@ O projeto foi dividido em três etapas principais:
 - Planejamento agrícola  
 - Manejo do solo  
 - Zoneamento ambiental  
-- Apoio à tomada de decisão  
+- Apoio à tomada de decisão baseada em dados
 
 ---
 
